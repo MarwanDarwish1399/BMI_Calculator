@@ -1,0 +1,74 @@
+body{
+    background-color: azure;
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.header{
+    position: absolute;
+    justify-content: center;
+    align-self: center;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: cornflowerblue;
+    top: 15%;
+
+
+}
+
+.container{
+display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   flex-direction: column;
+}
+.w{
+   position: absolute;
+   bottom: 65%;
+    gap: 5px;
+}
+.wi{
+width: 175px;
+}
+.height{
+ position: absolute;
+ bottom: 56%;
+    
+}
+.hi{
+    width: 175px;
+}
+.ht, .wt{
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+font: bold;
+
+}
+.submit{
+    position: absolute;
+    top: 50%;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100px;
+    height: 25px;
+    color: rgb(3, 6, 11);
+
+
+}
+.submit:hover{
+    background-color: cornflowerblue;
+}
+.BMIResult{
+   position: absolute;
+   top: 70%;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    color: black;
+}
+.resu{
+    position: absolute;
+    top: 75%;
+}
